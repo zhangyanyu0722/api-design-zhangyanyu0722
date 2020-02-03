@@ -27,6 +27,8 @@ Open my openweathermap.py, use your API ID to replace mine:
 ```
 APIID = 'Your API ID'
 ```
+
+For more information, visit the offical web : https://openweathermap.org/
 <p align="middle">
   <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/4.png">
 </p>
@@ -47,14 +49,19 @@ Open a terminal, run
 ```
 $ python openweathermaip.py
 ```
+When you run the py program, terminal return as following: 
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/1.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/1.png">
 </p>
+
+Choose "1" to input the city name
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/2.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/2.png">
 </p>
+
+Input the city name, for example : BOS
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/3.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/3.png">
 </p>
 
 
