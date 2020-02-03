@@ -1,4 +1,4 @@
-# Airport Weather Design Baesd on Openweather API
+# Airport Weather Design Baesd on OpenWeather API
 
 ## Product Definition
 
@@ -37,6 +37,12 @@ Python 3.6.8 (v3.6.8:3c6b436a57, Dec 24 2018, 02:04:31)
 Install requests for current Python
 ```
 $ pip install requests
+```
+
+### Run
+Open a terminal, run
+```
+$ python openweathermaip.py
 ```
 
 
