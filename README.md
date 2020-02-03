@@ -21,11 +21,22 @@ clone my repo and unzip it:
 git clone https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722
 ```
 
-## Register an API key of Open Weather     
+### Register an API key of Open Weather     
 Click this website https://home.openweathermap.org/users/sign_up for sign up, then you can get a free API ID
 Open my openweathermap.py, use your API ID to replace mine:    
 ```
 APIID = 'Your API ID'
+```
+
+### Prepare Python Env and Pkg
+Check Python Version : 
+```
+$ Python
+Python 3.6.8 (v3.6.8:3c6b436a57, Dec 24 2018, 02:04:31) 
+```
+Install requests for current Python
+```
+$ pip install requests
 ```
 
 
