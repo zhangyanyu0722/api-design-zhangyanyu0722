@@ -28,7 +28,7 @@ Open my openweathermap.py, use your API ID to replace mine:
 APIID = 'Your API ID'
 ```
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/4.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/4.png" width="300">
 </p>
 
 ### Prepare Python Env and Pkg
@@ -48,13 +48,13 @@ Open a terminal, run
 $ python openweathermaip.py
 ```
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/1.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/1.png" width="300">
 </p>
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/2.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/2.png" width="300">
 </p>
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/master/picture/3.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/3.png" width="300">
 </p>
 
 
