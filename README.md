@@ -14,9 +14,9 @@
 - I, the airport staff, want to know the visibility, wind, clouds and weather conditions.
 - I, the traveler, want to know the wind and weather conditions of the destination.
 
-## Preparation
+## How to use Open Weather API
 ### Download Files    
-clone my repo:   
+clone my repo and unzip it:   
 ```
 git clone https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722
 ```
