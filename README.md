@@ -13,6 +13,7 @@
 - I, the traveler, want to know the location and weather conditions of the airport.
 - I, the airport staff, want to know the visibility, wind, clouds and weather conditions.
 - I, the traveler, want to know the wind and weather conditions of the destination.
+- I, the traveler, want to know whether my flight will be delayed or not.
 
 ## How to use Open Weather API
 ### Download Files    
