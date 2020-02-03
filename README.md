@@ -54,8 +54,9 @@ $ python openweathermaip.py
   <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/2.png" width="300">
 </p>
 <p align="middle">
-  <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/3.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/master/picture/3.png" width="300">
 </p>
+
 
 
 
