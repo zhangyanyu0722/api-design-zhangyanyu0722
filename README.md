@@ -27,9 +27,8 @@ Open my openweathermap.py, use your API ID to replace mine:
 ```
 APIID = 'Your API ID'
 ```
-<p align="center">
-  <a href="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/4.png">Sprint1</a>
-</p>
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/4.png" width="300">
 
 ### Prepare Python Env and Pkg
 Check Python Version : 
@@ -47,15 +46,14 @@ Open a terminal, run
 ```
 $ python openweathermaip.py
 ```
-<p align="center">
-  <a href="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/1.png">Sprint1</a>
-</p>
-<p align="center">
-  <a href="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/2.png">Sprint1</a>
-</p>
-<p align="center">
-  <a href="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/3.png">Sprint1</a>
-</p>
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/1.png" width="300">
+  
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/2.png" width="300">
+
+<p align="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/tree/master/picture/3.png" width="300">
 
 
 
