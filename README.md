@@ -28,7 +28,7 @@ Open my openweathermap.py, use your API ID to replace mine:
 APIID = 'Your API ID'
 ```
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/4.png" width="300">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/4.png">
 </p>
 
 ### Prepare Python Env and Pkg
