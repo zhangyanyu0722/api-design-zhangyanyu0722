@@ -60,9 +60,19 @@ Choose "1" to input the city name
   <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/2.png">
 </p>
 
-Input the city name, for example : BOS
+Input the city name, for example : Boston
 <p align="middle">
   <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/3.png">
+</p>
+
+Choose "2" to input the airport name
+<p align="middle">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/44.png">
+</p>
+
+Input the airport name, for example : Total Rf heliport
+<p align="middle">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/5.png">
 </p>
 
 
