@@ -31,6 +31,20 @@ def get_location(airport_Name):
             # print(lati, longi)
             search_by_positon(lati, longi)
 
+def get_location_2(airport_Name):
+    airportName = airport_Name
+    file2 = "airport-codes.csv"
+    with open(file2) as csv_file:
+        csvitem = list(csv.reader(csv_file) )
+    
+    for row in csvitem:
+        if row[2] == airport_Name:
+            position = row[11].split(', ')
+            lati = position[0]
+            longi = position[1]
+            # print(lati, longi)
+            show_position(lati, longi)
+
 def search_by_positon(lati, longi):
     basic_url = 'http://api.openweathermap.org/data/2.5/weather?'
     url = basic_url + "lat=" + lati + "&lon=" + longi + "&appid=" + APIID
