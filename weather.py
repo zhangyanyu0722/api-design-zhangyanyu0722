@@ -31,20 +31,6 @@ def get_location(airport_Name):
             # print(lati, longi)
             search_by_positon(lati, longi)
 
-def get_location_2(airport_Name):
-    airportName = airport_Name
-    file2 = "airport-codes.csv"
-    with open(file2) as csv_file:
-        csvitem = list(csv.reader(csv_file) )
-    
-    for row in csvitem:
-        if row[2] == airport_Name:
-            position = row[11].split(', ')
-            lati = position[0]
-            longi = position[1]
-            # print(lati, longi)
-            show_position(lati, longi)
-
 def search_by_positon(lati, longi):
     basic_url = 'http://api.openweathermap.org/data/2.5/weather?'
     url = basic_url + "lat=" + lati + "&lon=" + longi + "&appid=" + APIID
@@ -53,15 +39,6 @@ def search_by_positon(lati, longi):
     # print(data)
     # return data
     show_data(data)
-
-def show_position(lati, longi):
-    basic_url = 'http://api.openweathermap.org/data/2.5/weather?'
-    url = basic_url + "lat=" + lati + "&lon=" + longi + "&appid=" + APIID
-    res = requests.get(url) 
-    data = res.json()
-    # print(data)
-    # return data
-    show_data_2(data)
 
     # {'coord': {'lon': -74.93, 'lat': 40.07}, 
     # 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 
@@ -91,15 +68,6 @@ def show_data(data):
         print('Description : {}'.format(description))
     else:
         print("please enter valid city name:")
-
-def show_data_2(data):
-    if  data["cod"] != "408":
-        latitude = data['coord']['lat']
-        longitude = data['coord']['lon']
-        print('Latitude : {}, Longitude : {}'.format(latitude,longitude))
-    else:
-        print("please enter valid city name:")
-
 
 def quit():
     return
