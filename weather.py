@@ -40,6 +40,15 @@ def search_by_positon(lati, longi):
     # return data
     show_data(data)
 
+def show_position(lati, longi):
+    basic_url = 'http://api.openweathermap.org/data/2.5/weather?'
+    url = basic_url + "lat=" + lati + "&lon=" + longi + "&appid=" + APIID
+    res = requests.get(url) 
+    data = res.json()
+    # print(data)
+    # return data
+    show_data_2(data)
+
     # {'coord': {'lon': -74.93, 'lat': 40.07}, 
     # 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 
     # base': 'stations', 
@@ -69,6 +78,15 @@ def show_data(data):
     else:
         print("please enter valid city name:")
 
+def show_data_2(data):
+    if  data["cod"] != "408":
+        latitude = data['coord']['lat']
+        longitude = data['coord']['lon']
+        print('Latitude : {}, Longitude : {}'.format(latitude,longitude))
+    else:
+        print("please enter valid city name:")
+
+
 def quit():
     return
 
@@ -90,5 +108,5 @@ def main():
         print("enter valid choice")
 
 if __name__ == '__main__':
-	main()
+    main()
 
