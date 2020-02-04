@@ -87,6 +87,7 @@ api.openweathermap.org/data/2.5/
 https://api.weather.gov/
 ```
 - The data from both API are all json.
+- Generally, two API provide different kind of weather information, for example: Current weather API, Forecast, weather map...
 
 
 
