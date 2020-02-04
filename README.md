@@ -31,7 +31,7 @@ APIID = 'Your API ID'
 
 For more information, visit the offical web : https://openweathermap.org/
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/4.png">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-zhangyanyu0722/blob/master/picture/4.png" width= 500>
 </p>
 
 ### Prepare Python Env and Pkg
