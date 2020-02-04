@@ -13,7 +13,7 @@ import pytest
 #     data(city)
 
 def airport_test():
-  assert show_position("Total Rf Heliport") == "Latitude : 40.07, Longitude : -74.93"
+  assert get_location_2("Total Rf Heliport") == "Latitude : 40.07, Longitude : -74.93"
 #   airportNames = ["Total Rf Heliport", "River Oak Airport", "Ac & R Components Heliport", "Lazy J. Aerodrome"]
 #   for airport in airportNames:
 #     get_location(airport)
