@@ -77,16 +77,16 @@ Input the airport name, for example : Total Rf heliport
 
 ## Compare OpenWeather API and National Weather API
 
-### OpenWeather API need to sign up, then get a free ID, But National Weather API donot need to.
-### In the OpenWeather API, the interface is
+- OpenWeather API need to sign up, then get a free ID, But National Weather API donot need to.
+- In the OpenWeather API, the interface is
 ```
 api.openweathermap.org/data/2.5/
 ```
-### In the National Weather API, the interface is
+- In the National Weather API, the interface is
 ```
 https://api.weather.gov/
 ```
-### The data from both API are all json.
+- The data from both API are all json.
 
 
 
