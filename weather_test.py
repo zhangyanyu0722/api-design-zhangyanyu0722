@@ -7,16 +7,16 @@
 from weather import data, get_location
 import pytest
 
-def test():
-  pass
+# def test():
+#   pass
 
-# def city_test():
-#   cityNames = ["London", "Beijing", "New York", "Tokyo", "Hangzhou", "Boston", "Seattle"]
-#   for city in cityNames:
-#     data(city)
+def test_city():
+  cityNames = ["London", "Beijing", "New York", "Tokyo", "Hangzhou", "Boston", "Seattle"]
+  for city in cityNames:
+    data(city)
 
-# def airport_test():
-#   airportNames = ["Total Rf Heliport", "River Oak Airport", "Ac & R Components Heliport", "Lazy J. Aerodrome"]
-#   for airport in airportNames:
-#     get_location(airport)
+def test_airport():
+  airportNames = ["Total Rf Heliport", "River Oak Airport", "Ac & R Components Heliport", "Lazy J. Aerodrome"]
+  for airport in airportNames:
+    get_location(airport)
 
